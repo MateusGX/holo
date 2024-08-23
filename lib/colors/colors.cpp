@@ -1,5 +1,4 @@
 #include "colors.h"
-#include "M5StickCPlus2.h"
 
 int colorToHex(Colors color)
 {

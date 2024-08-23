@@ -1,6 +1,8 @@
 #ifndef COLORS_H
 #define COLORS_H
 
+#include "M5StickCPlus2.h"
+
 enum class Colors
 {
     BLACK,
