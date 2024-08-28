@@ -80,8 +80,8 @@ void Menu::loop()
     {
         if (config->getSoundEnabled())
             StickCP2.Speaker.tone(6000, 100);
-        selectedItem = 0;
-        screenManager->goBack();
+        if (screenManager->goBack())
+            selectedItem = 0;
     }
 }
 
